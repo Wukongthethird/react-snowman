@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game finishes after nWrong reaches MaxGuess 1`] = `
+<div>
+  <div
+    class="Snowman"
+  >
+    <img
+      alt="1"
+      src="1.png"
+    />
+    <p>
+       Wrong: 
+      1
+    </p>
+    <p
+      class="Snowman-word"
+    >
+       
+      apple
+       
+    </p>
+    <p>
+      You Lose
+       
+    </p>
+  </div>
+</div>
+`;

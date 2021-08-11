@@ -73,8 +73,13 @@ function Snowman(props) {
   return (
       <div className="Snowman">
         <img src={(props.images)[nWrong]} alt={nWrong} />
-        <p className="Snowman-word">{guessedWord()}</p>
-        <p>{generateButtons()}</p>
+        <p> Wrong: {nWrong}</p>
+        <p className="Snowman-word"> {nWrong >= props.maxWrong
+          ? answer
+          :guessedWord() } </p>
+        <p>{nWrong >= props.maxWrong
+          ? "You Lose" 
+          :generateButtons() } </p>
       </div>
   );
 }
