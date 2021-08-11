@@ -2,7 +2,7 @@ import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import Snowman from "./Snowman"
 
-it("Game finishes after nWrong reaches MaxGuess", function(){
+it("Game finishes after nWrong reaches maxWrong", function(){
   const { container } = render(<Snowman maxWrong = {1}/>);
 
   const button = container.querySelector( 'button[value="j"]' )

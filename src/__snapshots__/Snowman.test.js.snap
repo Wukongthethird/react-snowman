@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Game finishes after nWrong reaches MaxGuess 1`] = `
+exports[`Game finishes after nWrong reaches maxWrong 1`] = `
 <div>
   <div
     class="Snowman"
